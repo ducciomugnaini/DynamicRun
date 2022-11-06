@@ -13,6 +13,10 @@
     <Content Include="Sources\DynamicProgram.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Compile Remove="Sources\MyMath.cs" />
+    <Content Include="Sources\MyMath.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
